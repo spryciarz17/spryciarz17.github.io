@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f2f5f9;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+
+header{
+    background:#0d47a1;
+    color:white;
+    padding:20px;
+}
+
+header p{
+    opacity:.8;
+}
+
+main{
+    flex:1;
+    padding:20px;
+}
+
+.card{
+    background:white;
+    border-radius:20px;
+    padding:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.badge{
+    background:#d32f2f;
+    color:white;
+    display:inline-block;
+    padding:6px 10px;
+    border-radius:8px;
+    font-size:12px;
+    margin-bottom:15px;
+}
+
+.profile{
+    display:flex;
+    gap:15px;
+    align-items:center;
+}
+
+.avatar{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    background:#0d47a1;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.actions{
+    margin-top:20px;
+}
+
+button{
+    width:100%;
+    border:none;
+    border-radius:12px;
+    padding:14px;
+    background:#0d47a1;
+    color:white;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.hidden{
+    display:none;
+}
+
+.qrBox{
+    margin-top:20px;
+    background:white;
+    padding:20px;
+    border-radius:20px;
+    text-align:center;
+}
+
+nav{
+    display:flex;
+    background:white;
+    border-top:1px solid #ddd;
+}
+
+nav button{
+    border-radius:0;
+}
