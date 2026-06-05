@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyfrowy Portfel Dokumentów</title>
+
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="theme-color" content="#0d47a1">
+</head>
+<body>
+
+<header>
+    <h1>Rzeczpospolita Polska</h1>
+    <p>mObywatel</p>
+</header>
+
+<main>
+
+    <section class="card">
+    
+
+         <h2>Dowód osobisty</h2>
+
+        <div class="profile">
+            <div class="avatar">JK</div>
+
+            <div>
+                <p><strong>Hanna Jankowska</strong></p>
+                <p>Nr dowodu: 7402604723</p>
+                <p>Ważna do: 10.09.2030</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="actions">
+        <button id="showQR">Pokaż QR</button>
+    </section>
+
+    <section id="qrContainer" class="hidden">
+        <div class="qrBox">
+            <p>QR</p>
+            <canvas id="qrCanvas"></canvas>
+        </div>
+    </section>
+
+</main>
+
+<nav>
+    <button>Dokumenty</button>
+    <button>Profil</button>
+    <button>Ustawienia</button>
+</nav>
+
+<script src="script.js"></script>
+
+</body>
+</html>
